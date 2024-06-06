@@ -54,7 +54,7 @@ const Signup = () => {
       <div className=" flex lg:flex-row flex-col h-[90vh] w-full justify-evenly items-center bg-white ">
         <div className="w-[300px]">
           <div className="width-full">
-            <h1 className="text-black text-5xl font-bold mb-[30px]">Sign in to</h1>
+            <h1 className="text-black text-5xl font-bold mb-[30px]">Sign Up to</h1>
             <span className="text-black text-3xl font-medium">Loren Ipsum Simply</span>
           </div>
           <div className="flex flex-col justify-center mt-[50px] font-normal">

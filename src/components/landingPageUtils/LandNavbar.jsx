@@ -20,7 +20,7 @@ const LandNavbar = () => {
         Overview
       </div>
       <div className="flex gap-[20px] items-center">
-        <input type="text" className="bg-[#F5F7FA] rounded-full w-[250px] text-center h-[40px]"  placeholder="Search for Something" />
+        <input type="text" className="bg-[#F5F7FA] rounded-full focus:outline-none w-[250px] text-center h-[40px]"  placeholder="Search for Something" />
         <img src={Setting} alt="" className="h-[40px] max-sm:hidden" />
         <img src={Bell} alt=""  className="h-[40px] max-sm:hidden" />
         <img src={Photo} alt=""  className="rounded-full h-[35px] w-[35px]" />
