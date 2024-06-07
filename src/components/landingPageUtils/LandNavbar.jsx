@@ -21,7 +21,7 @@ const LandNavbar = () => {
         Overview
       </div>
       <div className="hidden max-sm:block ">
-        <RxHamburgerMenu className="h-[25px] w-[25px] text-gray-600" />
+        <RxHamburgerMenu className="h-[25px] w-[25px] text-gray-600 mr-[15px]" />
       </div>
       <div className="flex gap-[20px] items-center">
         <input type="text" className="bg-[#F5F7FA] rounded-full focus:outline-none w-[250px] text-center h-[40px]"  placeholder="Search for Something" />
