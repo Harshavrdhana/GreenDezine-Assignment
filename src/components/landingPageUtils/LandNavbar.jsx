@@ -3,6 +3,7 @@ import Setting from "../../assets/Setting.svg"
 import Bell from "../../assets/Bell.svg"
 import Photo from "../../assets/Photo.png"
 import { AiOutlineLogout } from "react-icons/ai";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 
 const LandNavbar = () => {
@@ -16,8 +17,11 @@ const LandNavbar = () => {
 
   return (
     <div className="w-full h-[150px] bg-white text-black flex items-center justify-between shadow-lg px-[20px]">
-      <div className="text-[22px] text-[#343C6A] max-sm:text-[18px]" >
+      <div className="text-[22px] text-[#343C6A] max-sm:hidden" >
         Overview
+      </div>
+      <div className="hidden max-sm:block ">
+        <RxHamburgerMenu className="h-[25px] w-[25px] text-gray-600" />
       </div>
       <div className="flex gap-[20px] items-center">
         <input type="text" className="bg-[#F5F7FA] rounded-full focus:outline-none w-[250px] text-center h-[40px]"  placeholder="Search for Something" />
